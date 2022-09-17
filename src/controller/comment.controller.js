@@ -10,6 +10,11 @@ class CommentController {
     const result = await service.create(momentId, content, id);
 
     ctx.body = result
+  }
+
+  async reply(ctx, next) {
+    
+  }
 }
 
 module.exports = new CommentController();
