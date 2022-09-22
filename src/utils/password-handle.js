@@ -7,4 +7,3 @@ const md5password = (password) => {
 }
 
 module.exports = md5password;
-
